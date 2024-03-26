@@ -4,13 +4,13 @@ let rule =
 function trueProgrammer () {
 let result = '';
 switch (true) {
-  case rule.length < 25:
+  case rule.length > 25:
     result = "Все таки нет правил без исключения";
     break;
-  case rule.length > 25:
+  case rule.length < 25:
     result = "У меня 100 пудов все получится";
     break;
-  case rule.length == 25:
+  case rule.length === 25:
     result = "50 на 50";
     break;
 }

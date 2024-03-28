@@ -4,5 +4,5 @@ const giveMeRightNumbers = (value1, value2, maximum) => {
     } else {
         console.log('Something wrong!');
     }
-}
-giveMeRightNumbers(333, 33, 3)
+};
+giveMeRightNumbers(33,333,3);

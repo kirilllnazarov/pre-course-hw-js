@@ -12,4 +12,4 @@ copyPassportWithAddress.address.city = 'Bobryisk';
 
 
 console.log(passportWithAddress);
-console.log(copyPassportWithAddress);
+console.log(copyPassportWithAddress.address.city);

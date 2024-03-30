@@ -4,5 +4,8 @@ const numbers = [
 	[111, 200, 333, 400, 555],
 ];
 
-let even = numbers.flat().filter((el) => el % 2 === 0);
-console.log(even);
+for (let i = 0; i < numbers.length; i++) {
+	numbers[i] = numbers[i].filter((el) => el % 2 === 0);
+}
+
+console.log(numbers);
